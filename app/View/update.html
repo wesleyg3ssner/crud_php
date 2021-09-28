@@ -1,0 +1,30 @@
+<div class="col-md-6 m-auto">
+	<h1 class="mb-4 mt-4">Update Product</h1>
+
+	<form method="POST" action="http://localhost/crud_php/product/edit/{{ id }}">
+		<div class="form-row align-items-center">
+			<div class="col-md-8">
+				<input type="text" name="name" placeholder="Nome do produto" class="form-control" value="{{ name }}">
+			</div>
+			<div class="col-md-4">
+				<input type="number" name="price" placeholder="Preço" class="form-control text-center" value="{{ price }}">
+			</div>
+
+			<div class="col-md-6 mt-3">
+				<label for="category">Categoria: </label>
+				<select name="category" id="category" class="form-control">
+					<option value="4">Alimentos</option>
+					<option value="5" selected>Informática</option>
+					<option value="3">Celulares</option>
+					<option value="2">Eletrodomésticos</option>
+				</select>
+			</div>
+
+			<div class="col-md-6 mt-3">
+				<button type="submit" class="btn btn-primary mt-4 w-100">Atualizar Produto</button>
+			</div>
+		</div>
+
+		<input type="hidden" name="id" value="{{ id }}">
+	</form>
+</div>

@@ -1,0 +1,21 @@
+{
+    "name": "wesley/teste-php",
+    "description": "Teste back-end PHP, MYSQL, HTML, CSS e JAVASCRIPT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley Gessner",
+            "email": "wesley-gessner@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Lib\\": "lib/"
+        }
+    },
+    "require": {
+        "twig/twig": "^3.3"
+    }
+}

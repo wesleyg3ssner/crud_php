@@ -29,10 +29,10 @@ Um cliente precisa em seu painel de controle um módulo simples de cadastro de p
  PRIMARY KEY (`id`)
  )
 
- INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (4, 'Pão');
- INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (5, 'Mouse Gamer');
- INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (2, 'Galedeira');
- INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (3, 'Xiaomi Redmi 6');
+ INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (4, 'Pão', 5);
+ INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (5, 'Mouse Gamer', 120);
+ INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (2, 'Galadeira', 2500);
+ INSERT INTO `produto` (categoria_id, `nome`, preco) VALUES (3, 'Xiaomi Redmi 6', 768);
 ```
 
 ## Foram utilizadas as seguintes tecnologias no desenvolvimento:

@@ -5,7 +5,7 @@ Esse projeto foi desenvolvido com o intuito de aprender novas tecnologias.
 Na construção desse projeto foi utilizado o Design Pattern MVC para melhor organização do código e posteriormente uma fácil manutenção do mesmo.
 
 ## Cenário utilizado para criação do projeto
-Um cliente precisa em seu painel de controle um módulo simples de cadastro de produto, em que cada produto está relacionado a uma tabela chamada 'categorias' (script da tabela categorias está abaixo):
+Um cliente precisa em seu painel de controle um módulo simples de cadastro de produto, em que cada produto está relacionado a uma tabela chamada 'categoria' (script da tabela categoria e produto está abaixo):
 
 ```mysql
  CREATE TABLE `categoria` (
